@@ -1,0 +1,250 @@
+@import url('https://fonts.google.com/specimen/Bebas+Neue?query=bebas');
+@import url('https://fonts.googleapis.com/css?family=Khula:700#');
+*
+
+
+{
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue',sans serif;
+
+
+
+
+
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+li, a, button{
+    font-weight:500;
+    font-size:16px;
+    color:#edf0d1;
+    text-decoration:none;
+
+
+}
+
+header{
+
+display : flex;
+align-items : center;
+
+justify-content: space-between;
+
+padding:30px 10%;
+
+}
+
+
+
+
+
+.nav_links{
+    list-style:none;
+
+}
+
+
+.nav_links li{
+
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+.nav_links li a{
+ transition:all 0.3s ease 0s;
+
+}
+
+
+
+.nav_links li a:hover{
+ color: #0088a9;
+
+}
+
+button{
+
+    padding:9px 25px;
+    background-color:rgba(0,136,169,1);
+    border:none;
+    border-radius:50px;
+    cursor: pointer;
+    transition:all 0.3s ease 0s;
+
+}
+
+
+
+
+button:hover{
+background-color: rgba(0,136,169,0.8);
+}
+
+
+body{
+color:white;
+background-image: url("images/background.png") ;
+
+
+
+background-size:cover;
+background-position:top;
+
+
+
+
+
+
+
+}
+
+
+.box{
+padding:120px;
+
+
+
+}
+
+.box2{
+padding:200px;
+
+
+
+}
+
+
+
+
+
+
+
+.test{
+align-items:center;
+position: relative;
+width:85%;
+    left:15%;
+
+}
+
+.test h3{
+opacity:0.9;
+font-size:80px;
+
+
+
+
+
+}
+
+
+
+.test h2{
+font-size:80px;
+
+}
+
+
+.test p{
+font-size:20px;
+
+}
+
+
+.about{
+
+    position:relative;
+    width:85%;
+    left:15%;
+    align-items:center;
+
+    height:500px;
+
+
+
+}
+
+.about h3{
+position:relative;
+padding:25px;
+font-size:80px;
+top:80px;
+}
+
+.about p{
+position:relative;
+top:80px;
+width :25%;
+}
+
+.about img{
+position : absolute;
+
+
+
+
+
+left:33%;
+top:20%;
+}
+
+
+.about img:hover{
+transform: translateY(-20px);
+transform: translateX(20px);
+
+}
+
+.box4{
+padding :100px;
+
+}
+
+.hidden {
+  opacity:0;
+}
+.console-container {
+
+      width:25%;
+
+      right:22.5%;
+
+  font-size:22px;
+
+  display:block;
+  position:relative;
+  color:white;
+
+
+  margin:auto;
+}
+.console-underscore {
+   display:inline-block;
+  position:relative;
+
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+position:relative;
+padding:50px;
+}
