@@ -3,6 +3,14 @@
 *
 
 
+
+
+
+
+
+
+
+
 {
 
     margin:0;
@@ -18,9 +26,24 @@
 
 
 
+
+
+
+
+
 html {
   scroll-behavior: smooth;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -46,9 +69,34 @@ padding:30px 10%;
 
 
 
+.lol{
+position: fixed;
+width: 10%;
+bottom:5%;
+right:0px;
+list-style:none;
+align-items: center;
+}
+
+.lol li{
+
+display: inline-block;
+    padding: 0px 40px;
+
+}
+
+
+
+.lol li img{
+padding:5%;
+width: 40%;
+height: 40%;
+}
+
 
 
 .nav_links{
+
     list-style:none;
 
 }
@@ -62,6 +110,7 @@ padding:30px 10%;
 }
 
 .nav_links li a{
+color:#fffffe;
  transition:all 0.3s ease 0s;
 
 }
@@ -74,9 +123,9 @@ padding:30px 10%;
 }
 
 button{
-
+    color:#fffffe;
     padding:9px 25px;
-    background-color:rgba(0,136,169,1);
+    background-color:#ff8906;
     border:none;
     border-radius:50px;
     cursor: pointer;
@@ -84,7 +133,9 @@ button{
 
 }
 
-
+h3{
+color:white;
+}
 
 
 button:hover{
@@ -92,9 +143,14 @@ background-color: rgba(0,136,169,0.8);
 }
 
 
+
+
+
+
 body{
-color:white;
-background-image: url("images/background.png") ;
+color:#a7a9be;
+background-color: #0f0e17 ;
+
 
 
 
@@ -224,7 +280,7 @@ padding :100px;
 
   display:block;
   position:relative;
-  color:white;
+
 
 
   margin:auto;
@@ -247,4 +303,23 @@ padding :100px;
 footer{
 position:relative;
 padding:50px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(15,12,41);
+background: linear-gradient(90deg, rgba(15,12,41,1) 0%, rgba(48,43,99,1) 50%, rgba(36,36,62,1) 100%);
+
+}
+
+::-webkit-scrollbar-thumb {
+background: #a7a9be;
+
+
+    border:none;
+    border-radius:80px;
+
 }

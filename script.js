@@ -1,7 +1,7 @@
 consoleText(['Hy, my name is :'], 'text',['']);
-
+button
 function consoleText(words, id, colors) {
-  if (colors === undefined) colors = ['#fff'];
+  if (colors === undefined) colors = ['#a7a9be'];
   var visible = true;
   var con = document.getElementById('console');
   var letterCount = 1;
